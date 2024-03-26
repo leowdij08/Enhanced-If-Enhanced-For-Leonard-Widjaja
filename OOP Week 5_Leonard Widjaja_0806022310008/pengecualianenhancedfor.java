@@ -7,13 +7,13 @@ public class pengecualianenhancedfor {
         
         for (int[] row : matrix) { 
             for (int num : row) {
-                num += 2; // 2 akan ditambahkan pada setiap elemen matrix, namun masuk ke variabel num, tidak langsung diubah pada elemen matrix
+                num += 2; // 2 akan ditambahkan pada setiap elemen matrix melalui variabel num, tidak langsung diubah pada elemen matrix
             }
         }
         
         for (int[] row : matrix) { 
             for (int num : row) {
-                System.out.print(num + " "); // Memprint semua elemen dalam matrix, namun elemen yang diprint belum ditambah 2 perubahan yang dilakukan dalam for di atas hanya merubah nilai variabel num
+                System.out.print(num + " "); // Memprint semua elemen dalam matrix, namun elemen yang diprint belum ditambah 2, perubahan yang dilakukan dalam for di atas hanya merubah nilai variabel num
             }
             System.out.println("");
         }
